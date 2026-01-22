@@ -1,116 +1,145 @@
-# The Minimal theme
+# 청주 사설구급차 | 청주 구급차 환자이송 전문 직지응급환자이송단 24시간
 
-[![.github/workflows/ci.yaml](https://github.com/pages-themes/minimal/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/minimal/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal.svg)](https://badge.fury.io/rb/jekyll-theme-minimal)
+> **충청북도 전 지역 24시간 응급환자이송 서비스**  
+> 전문 응급구조사 동행, 요양병원·정신질환자 전문이송, 행사 의료지원
 
-*Minimal is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/minimal), or even [use it today](#usage).*
+---
 
-![Thumbnail of Minimal](thumbnail.png)
+## 🚑 전문 이송 서비스
 
-## Usage
+### 💊 일반 환자이송
+병원 간 이송, 외래진료 이송, 입퇴원 이송 등 일반적인 환자 운송 서비스를 안전하게 제공합니다.
 
-To use the Minimal theme:
+### 🏚️ 요양병원 전문이송
+요양병원 입원 및 퇴원, 병원 간 전원 시 구급차로 편안하고 안전한 이송을 보장합니다.
 
-1. Add the following to your site's `_config.yml`:
+### 🧠 정신병원 강제입원
+정신과 병원 이송 시 전문 훈련받은 응급구조사가 동행하여 안전하고 인도적인 이송을 실시합니다.
 
-    ```yml
-    remote_theme: pages-themes/minimal@v0.2.0
-    plugins:
-    - jekyll-remote-theme # add this line to the plugins list if you already have one
-    ```
+### 🍺 알콜중독 강제입원
+알코올 전문병원 이송 시 환자 상태를 고려한 맞춤형 이송 서비스를 제공합니다.
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+### 🎭 행사 의료지원
+체육대회, 축제, 콘서트 등 각종 행사 현장에서의 응급의료 지원 서비스를 제공합니다.
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+### 🕊️ 고인 이송
+고인의 존엄성을 지키며 장례식장까지 정중하고 신속한 이송 서비스를 제공합니다.
 
-## Customizing
+---
 
-### Configuration variables
+## 📞 긴급 연락처
 
-Minimal will respect the following variables, if set in your site's `_config.yml`:
+**☎️ 010-8841-4114 (24시간 응급상황 대기)**
 
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
+---
 
-Additionally, you may choose to set the following optional variables:
+## 🏥 서비스 지역 및 병원 정보
 
-```yml
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
+### 충청북도 전 지역 서비스 가능
 
-### Stylesheet
+| 지역 | 특징 | 주요 병원 |
+|------|------|-----------|
+| **청주시** | 상당구, 서원구, 청원구, 흥덕구 | 충북 최대 도시, 상급종합병원 다수 |
+| **충주시** | 시내 전 지역 및 인근 농촌지역 | 충북 북부 거점, 건국대 충주병원 |
+| **제천시** | 시내 전 지역 및 인근 산간지역 | 산간지역 의료중심, 세명대병원 |
+| **옥천군** | 옥천읍, 동이면, 안남면 등 | 청주 35분, 대전 40분 접근 |
+| **영동군** | 영동읍, 황간면, 추풍령면 등 | 대전 접근 용이, 산간지역 |
+| **음성군** | 음성읍, 금왕읍, 대소면 등 | 청주 30분, 산업단지 밀집 |
+| **진천군** | 진천읍, 덕산읍, 백곡면 등 | 청주 25분, 국가대표선수촌 |
+| **괴산군** | 괴산읍, 청천면, 칠성면 등 | 충주 30분, 농촌지역 |
+| **증평군** | 증평읍, 도안면 | 청주 20분, 충북 최소 군 |
+| **보은군** | 보은읍, 속리산면, 탄부면 등 | 속리산 인근, 청주 45분 |
+| **단양군** | 단양읍, 매포읍, 가곡면 등 | 제천 20분, 관광지역 |
 
-If you'd like to add your own custom styles:
+---
 
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
+## ❓ 자주 묻는 질문
 
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+### Q. 정신질환자나 알콜중독 환자도 이송 가능한가요?
+**A.** 네, 가능합니다. 정신질환자와 알콜중독 환자 이송을 위한 특별한 훈련을 받은 전문 인력이 상주하고 있으며, 환자의 상태와 안전을 최우선으로 하는 인도적인 이송 서비스를 제공합니다.
 
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
+### Q. 보험 적용이 되나요?
+**A.** 사설구급차 이용료는 일반적으로 건강보험 적용이 되지 않습니다. 다만, 실비보험이나 상해보험에 따라 보상이 가능한 경우가 있으니 해당 보험사에 문의하시기 바랍니다.
 
-### Layouts
+### Q. 청주에서 서울까지 이송이 가능한가요?
+**A.** 네, 가능합니다. 청주를 기점으로 전국 어디든 장거리 이송 서비스를 제공하고 있습니다. 서울, 대전, 대구, 부산 등 전국 주요 도시로의 환자이송이 가능합니다.
 
-If you'd like to change the theme's HTML layout:
+### Q. 응급구조사가 항상 동행하나요?
+**A.** 네, 저희 직지응급환자이송단은 상황별로 전문 응급구조사가 동행합니다. 1급 응급구조사 자격을 보유한 전문 인력이 이송 중 환자의 상태를 지속적으로 모니터링합니다.
 
-1. For some changes such as a custom `favicon`, you can add custom files in your local `_includes` folder. The files [provided with the theme](https://github.com/pages-themes/minimal/tree/master/_includes) provide a starting point and are included by the [original layout template](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html).
-2. For more extensive changes, [copy the original template](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-3. Create a file called `/_layouts/default.html` in your site
-4. Paste the default layout content copied in the first step
-5. Customize the layout as you'd like
+---
 
-### Customizing Google Analytics code
+## 💰 투명한 요금 안내
 
-Google has released several iterations to their Google Analytics code over the years since this theme was first created. If you would like to take advantage of the latest code, paste it into `_includes/head-custom-google-analytics.html` in your Jekyll site.
+**2025년 7월 기준 특수차 요금표 (보건복지부 고시 준수)**
 
-### Overriding GitHub-generated URLs
+| 항목 | 요금 |
+|------|------|
+| 기본 요금 (10km 이내, 특수차) | 75,000원 |
+| 추가 거리 (1km당) | 1,300원 |
+| 응급구조사 동행 | 포함 |
+| 야간 할증 (00시~04시) | 20% |
+| 공휴일/주말 할증 | 20% |
+| 특수 환자 이송 (정신질환/중독) | 별도 상담 |
 
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
+> ※ 정확한 요금은 출발지와 목적지를 확인한 후 안내해드립니다  
+> ※ 특수 상황 이송 및 장거리 이송의 경우 별도 상담 후 요금이 책정됩니다
 
-1. Look at [the template source](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
+---
 
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
+## 📚 응급의료 정보 & 이송 가이드
 
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
+### 🔗 주요 정보 페이지
+- **응급상황별 기본 응급처치 방법 완벽 가이드**
+- **119 vs 사설구급차, 언제 이용해야 할까?**
+- **환자이송 시 필요한 서류와 준비물**
+- **청주 주요 병원별 특징과 전문 진료과목**
+- **요양병원 입원 시 알아야 할 이송 절차**
+- **겨울철 낙상사고 예방과 응급처치 방법**
+- **어르신을 위한 응급상황 안전 가이드**
+- **응급실 방문 시 필수 체크리스트**
+- **정신건강 응급상황 시 안전한 이송 방법**
 
-## Roadmap
+---
 
-See the [open issues](https://github.com/pages-themes/minimal/issues) for a list of proposed features (and known issues).
+## 🏢 사업자 정보
 
-## Project philosophy
+**직지응급환자이송단**
+- **대표자**: 손기범
+- **담당자**: 강경성
+- **소재지**: 충청북도
+- **허가사항**: 응급환자이송업 신고
+- **운영시간**: 24시간 연중무휴
 
-The Minimal theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
+---
 
-## Contributing
+## 🌐 웹사이트 & 블로그
 
-Interested in contributing to Minimal? We'd love your help. Minimal is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
+**공식 웹사이트**: https://lds77.github.io/  
+**네이버 블로그**: https://blog.naver.com/ldszuno
 
-### Previewing the theme locally
+---
 
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
+## 🔍 주요 검색 키워드 (SEO 최적화)
 
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/minimal`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
+`청주 사설구급차` `충북 환자이송` `제천 구급차` `요양병원 이송` `정신병원 강제입원` `알콜중독 강제입원` `행사구급차` `충북 응급이송` `청주 민간구급차` `충북 민간구급차` `응급환자 이송서비스` `병원 간 환자이송` `24시간 구급차` `고인 운구 차량`
 
-### Running tests
+---
 
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
+## ⚡ 특별 서비스
+
+### ✅ 24시간 연중무휴 운영
+### ✅ 전문 응급구조사 상주
+### ✅ 최신 의료장비 완비
+### ✅ 충북 전 지역 서비스
+### ✅ 투명한 요금 체계
+### ✅ 정신질환·중독환자 전문이송
+### ✅ 행사 현장 응급의료지원
+
+---
+
+> **🚨 응급상황 시 119 신고 후 사설구급차 이용을 권장합니다**  
+> **본 서비스는 보건복지부 고시 기준을 준수합니다**
+
+**직지응급환자이송단 - 충청북도 전문 사설구급차 서비스**  
+*안전하고 신속한 환자이송을 위해 언제든지 연락하세요* 📞 **010-8841-4114**
