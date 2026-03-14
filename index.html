@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charlie Cameron — Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="nav-left">
+      <span class="nav-prompt">~$</span>
+      <span class="nav-title">charlie-cameron.github.io</span>
+      <span class="nav-cursor"></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#hero">about</a></li>
+      <li><a href="#slideshow">srcm</a></li>
+      <li><a href="#research">research</a></li>
+      <li><a href="#code">code</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-inner">
+    <div>
+      <p class="hero-eyebrow fd">PhD in Mathematical Biology</p>
+      <h1 class="hero-name fd">Charlie Cameron</h1>
+      <p class="hero-handle fd">@Cgyc20</p>
+      <p class="hero-desc fd">
+     PhD student in mathematical biology at the University of Bath. I build hybrid simulation methods that bridge deterministic and stochastic regimes for spatially extended biological systems — applying fine-grained stochastic modelling where particle counts are low, and efficient PDE solvers everywhere else. My work centres on the <i>Spatial Regime Conversion Method</i>, a spatially adaptive framework that makes this switch automatically, without sacrificing accuracy at the interface.
+      </p>
+      <div class="hero-btns fd">
+        <a href="https://www.mdpi.com/2227-7390/13/21/3406" class="btn btn-g" target="_blank">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
+          paper
+        </a>
+        <a href="https://github.com/Cgyc20" class="btn" target="_blank">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          github
+        </a>
+        <a href="mailto:cgyc20@bath.ac.uk" class="btn">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          email
+        </a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="hero-photo-ph">
+        <svg viewBox="0 0 24 24"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+        <img src="figures/Charlie.png">
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDESHOW -->
+<section id="slideshow">
+  <div class="wrap">
+
+    <div class="slides-header">
+      <div class="sec-head">
+        <span class="sec-num">00</span>
+        <span class="sec-title">The SRCM — Visual Overview</span>
+        <div class="sec-line"></div>
+      </div>
+      <div class="slides-meta">
+        <span class="slides-counter" id="slidesCounter">1 / 5</span>
+        <div class="slides-nav">
+          <button class="slide-btn" onclick="moveSlide(-1)">&#8592;</button>
+          <button class="slide-btn" onclick="moveSlide(1)">&#8594;</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="slides-track">
+      <div class="slides-inner" id="slidesInner">
+
+        <!-- ── SLIDE 1 ── -->
+        <div class="slide">
+          <div class="slide-img-wrap">
+            <img src="figures/schematic_new.png" alt="SRCM overview">
+          </div>
+          <div class="slide-text">
+            <p class="slide-num">01 / overview</p>
+            <h3 class="slide-title">Spatially Adaptive Hybrid Simulation</h3>
+            <p class="slide-body">The SRCM uses discrete compartment based methods when the species concentration are low , evolving via a <code>SSA</code>. Areas of high concentration are modelled continuously using  <code>PDE</code>. The conversion threshold is concentration dependent with discrete processes converting particles between the different regimes. The detailed discrete methods are applied in areas of low particle count, otherwise an efficient PDE is used.</p>
+          </div>
+        </div>
+
+        <!-- ── SLIDE 2 ── -->
+        <div class="slide">
+          <div class="slide-img-wrap">
+            <img src="figures/wound_healing.png" alt="Two regimes">
+          </div>
+          <div class="slide-text">
+            <p class="slide-num">02 / motivation</p>
+            <h3 class="slide-title">Two Regimes, One System</h3>
+            <p class="slide-body">PDEs are fast to run but cannot capture molecular noise. The SSA is exact but prohibitively slow at scale. Real biological systems — gene expression, would healing, morphogen gradients — naturally span both regimes at once.</p>
+          </div>
+        </div>
+
+        <!-- ── SLIDE 3 ── -->
+        <div class="slide">
+          <div class="slide-img-wrap">
+            <img src="figures/fisher_1.png" alt="Interface conversion">
+          </div>
+          <div class="slide-text">
+            <p class="slide-num">03 / interface</p>
+            <h3 class="slide-title">Regime Conversion at the Boundary</h3>
+            <p class="slide-body">At the PDE-SSA conversion threshold, continuous concentrations are converted into discrete particles — and back again. Mass is conserved between regimes, allowing a natural way of areas of different concentrations to be modelled using the most appropriate scheme.</p>
+          </div>
+        </div>
+
+        <!-- ── SLIDE 4 ── -->
+        <div class="slide">
+          <div class="slide-img-wrap">
+            <img src="figures/Wavespeed.png" alt="Wavespeed comparison">
+          </div>
+          <div class="slide-text">
+            <p class="slide-num">04 / validation</p>
+            <h3 class="slide-title">Capturing the Discrete Wavespeed</h3>
+            <p class="slide-body">The hybrid correctly reproduces the wavespeed of the discrete <code>FKPP</code> equation. By applying the <code>SSA</code> at the front of the travelling wave — where particle counts are low — the method preserves the stochastic slowdown that a pure <code>PDE</code> misses entirely.</p>
+          </div>
+        </div>
+
+        <!-- ── SLIDE 5 ── -->
+        <div class="slide">
+          <div class="slide-img-wrap">
+            <img src="figures/efficiency.png" alt="Efficiency scaling">
+            <svg class="ph-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+          </div>
+          <div class="slide-text">
+            <p class="slide-num">05 / efficiency</p>
+            <h3 class="slide-title">Hybrid Scales. SSA Doesn't.</h3>
+            <p class="slide-body">As particle counts grow, the <code>SSA</code> becomes increasingly expensive — runtime scales with the total number of reaction events. The hybrid scales with the <code>PDE</code> in high-density regions, keeping cost near-constant as the system grows.</p>
+          </div>
+        </div>
+
+      </div><!-- /slides-inner -->
+    </div><!-- /slides-track -->
+
+    <div class="slides-dots" id="slidesDots">
+      <button class="sdot active" onclick="goSlide(0)"></button>
+      <button class="sdot" onclick="goSlide(1)"></button>
+      <button class="sdot" onclick="goSlide(2)"></button>
+      <button class="sdot" onclick="goSlide(3)"></button>
+      <button class="sdot" onclick="goSlide(4)"></button>
+    </div>
+
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section class="section" id="research">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-num">01</span>
+      <span class="sec-title">Publications</span>
+      <div class="sec-line"></div>
+    </div>
+    <div class="paper">
+      <div class="paper-top">
+        <span class="badge">Open Access</span>
+        <span class="paper-venue">Mathematics &middot; MDPI &middot; Vol. 13(21) &middot; 3406 &middot; 2025</span>
+      </div>
+      <h2 class="paper-title">The Spatial Regime Conversion Method</h2>
+      <p class="paper-authors">Charlie Cameron &mdash; Mathematics, Special Issue: Stochastic Modelling in Biology</p>
+      <p class="paper-abstract">
+        Introduces the Spatial Regime Conversion Method (SRCM), a hybrid modelling framework enabling seamless transitions between deterministic (PDE) and stochastic (SSA) simulation regimes in spatially extended systems. Addresses the core challenge of reaction-diffusion processes where distinct spatial regions require different levels of description — deterministic in high-copy-number regions and stochastic where molecular noise is significant. The integrated SRCM-SSA toolkit is efficient, accurate, and unified.
+      </p>
+      <div class="paper-tags">
+        <span class="tag">stochastic simulation</span>
+        <span class="tag">reaction-diffusion</span>
+        <span class="tag">hybrid methods</span>
+        <span class="tag">SSA</span>
+        <span class="tag">PDE</span>
+        <span class="tag">mathematical biology</span>
+        <span class="tag">spatial modelling</span>
+      </div>
+      <div class="paper-actions">
+        <a href="https://www.mdpi.com/2227-7390/13/21/3406" class="btn btn-g" target="_blank">read article</a>
+        <a href="https://doi.org/10.3390/math13213406" class="btn" target="_blank">doi: 10.3390/math13213406</a>
+        <a href="https://github.com/Cgyc20/Integrated-srcm-ssa" class="btn" target="_blank">code &amp; data</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CODE -->
+<section class="section" id="code">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-num">02</span>
+      <span class="sec-title">Code</span>
+      <div class="sec-line"></div>
+    </div>
+    <div class="repo">
+      <div>
+        <div class="repo-header">
+          <span class="repo-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          </span>
+          <span class="repo-name">Cgyc20 / Integrated-srcm-ssa</span>
+        </div>
+        <p class="repo-desc">
+          Python implementation of the Integrated Spatial Regime Conversion Method with the Stochastic Simulation Algorithm. Companion code to the Mathematics (2025) paper — provides a full computational framework for hybrid deterministic-stochastic simulations of reaction-diffusion systems.
+        </p>
+        <div class="repo-meta">
+          <span class="repo-stat"><span class="lang-dot"></span>Python</span>
+          <span class="repo-stat">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+            public
+          </span>
+        </div>
+      </div>
+      <div class="repo-actions">
+        <a href="https://github.com/Cgyc20/Integrated-srcm-ssa" class="btn btn-g" target="_blank">view repo</a>
+        <a href="https://github.com/Cgyc20/Integrated-srcm-ssa/archive/refs/heads/main.zip" class="btn" target="_blank">download .zip</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-num">03</span>
+      <span class="sec-title">Contact &amp; Interests</span>
+      <div class="sec-line"></div>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <div class="info-row">
+          <span class="info-key">email</span>
+          <span class="info-val"><a href="mailto:cgyc20@bath.ac.uk">cgyc20@bath.ac.uk</a></span>
+        </div>
+        <div class="info-row">
+          <span class="info-key">github</span>
+          <span class="info-val"><a href="https://github.com/Cgyc20" target="_blank">github.com/Cgyc20</a></span>
+        </div>
+        <div class="info-row">
+          <span class="info-key">paper</span>
+          <span class="info-val"><a href="https://doi.org/10.3390/math13213406" target="_blank">10.3390/math13213406</a></span>
+        </div>
+        <div class="info-row">
+          <span class="info-key">affiliation</span>
+          <span class="info-val">University of Bath &middot; Mathematical Sciences</span>
+        </div>
+        <div class="info-row">
+          <span class="info-key">location</span>
+          <span class="info-val">Bath, UK</span>
+        </div>
+      </div>
+      <div class="interests">
+        <div class="int-item">Stochastic simulation algorithms</div>
+        <div class="int-item">Reaction-diffusion systems</div>
+        <div class="int-item">Hybrid deterministic-stochastic methods</div>
+        <div class="int-item">Mathematical biology</div>
+        <div class="int-item">PDEs &amp; numerical methods</div>
+        <div class="int-item">Scientific computing (Python)</div>
+        <div class="int-item">Monte Carlo methods</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <span class="footer-l">© 2025 Charlie Cameron — open source, open science</span>
+    <span class="footer-r"><span class="dot-green"></span>available for collaboration</span>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var cur = 0, total = 5;
+    var inner   = document.getElementById('slidesInner');
+    var counter = document.getElementById('slidesCounter');
+    var dots    = document.querySelectorAll('.sdot');
+
+    window.goSlide = function (n) {
+      cur = Math.max(0, Math.min(n, total - 1));
+      inner.style.transform = 'translateX(-' + (cur * 100) + '%)';
+      counter.textContent   = (cur + 1) + ' / ' + total;
+      dots.forEach(function (d, i) { d.classList.toggle('active', i === cur); });
+    };
+    window.moveSlide = function (dir) { goSlide(cur + dir); };
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowRight') moveSlide(1);
+      if (e.key === 'ArrowLeft')  moveSlide(-1);
+    });
+  })();
+</script>
+
+</body>
+</html>
