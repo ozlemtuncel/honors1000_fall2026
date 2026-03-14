@@ -3,34 +3,62 @@ layout: default
 title: Welcome
 ---
 
+# Charlie Cameron
 
+PhD student in the **SAMBa CDT** at the **University of Bath**, working on mathematical models of spatial biological systems.
 
-PhD student in the SAMBa CDT at the University of Bath. My work blends stochastic and deterministic modelling to better understand complex biological systems. I focus on **reaction–diffusion processes**—like the Fisher-KPP model—where randomness plays an important role in early dynamics. Since fully stochastic simulations can be computationally expensive, I use a hybrid approach that combines them with faster PDE-based methods in regions where randomness has less impact.
+My research focuses on **reaction–diffusion models**, which describe how interacting species evolve and spread through space. These models arise in many areas of biology and physics, including population invasion, morphogen gradient formation, and pattern formation in ecological systems.
 
-## Research: Spatial Regime Conversion Method (SRCM)
+I develop **hybrid computational methods** that allow these systems to be simulated efficiently while preserving the key dynamics that arise when particle numbers are small.
 
-I’m developing a **hybrid method** that combines:
-- 🟦 **Stochastic Simulation Algorithms (SSA)** in low-density regions  
-- 🟩 **Partial Differential Equations (PDEs)** in high-density regions  
+---
 
-This method improves computational efficiency while preserving key stochastic features.
+## Research
 
-I’m currently extending this method into **1D reaction–diffusion systems**, building on [Kynaston, Yates et al. (2023)](https://doi.org/10.3389/fams.2023.1107441), which proposed a non-spatial regime conversion technique.  
-🧪 You can explore the working code for the SRCM applied to the Fisher-KPP model on [GitHub](https://github.com/Cgyc20/SRCM_KPP).
+My work centres on the **Spatial Regime Conversion Method (SRCM)** — a hybrid modelling framework for spatial reaction–diffusion systems.
 
-![SRCM output plot](assets/img/fisher_7.png)  
-*Hybrid SRCM output: cyan = stochastic, dashed black = hybrid (dark blue stochastic + green PDE), solid green = pure PDE.*
+The method allows different mathematical representations of a system to be used in different regions of space, adapting dynamically during the simulation. Regions with low particle numbers are treated using a stochastic description, while regions with high concentrations are represented using a continuum model. This allows the simulation to retain important stochastic effects while remaining computationally efficient.
+
+Unlike many hybrid approaches, the SRCM does not require a fixed interface between modelling regimes. Instead, the representation used at each location changes automatically according to the local state of the system.
+
+---
+
+## Paper
+
+📄 **The Spatial Regime Conversion Method**
+
+C. G. Cameron, C. A. Smith, C. A. Yates  
+*Mathematics*, 13(21), 3406 (2025)
+
+The paper introduces the full mathematical framework for the SRCM, including the conversion mechanisms that allow the stochastic and continuum descriptions to interact consistently. The method is validated on several spatial systems, including diffusion problems, morphogen gradient formation, and travelling waves. :contentReference[oaicite:1]{index=1}
+
+🔗 https://www.mdpi.com/2227-7390/13/21/3406
+
+---
+
+## Code
+
+I maintain a **research codebase implementing the Spatial Regime Conversion Method** for spatial reaction–diffusion systems.
+
+The toolbox includes:
+
+- implementations of the SRCM framework
+- example simulations for travelling waves and other spatial systems
+- tools for analysing hybrid stochastic–deterministic simulations
+
+🐙 **GitHub**  
+https://github.com/cgyc20/SRCM_KPP
 
 ---
 
 ## Supervision
 
 - **Prof Kit Yates** — Department of Mathematical Sciences, University of Bath  
-- **Dr Cameron Smith** — Department of Mathematical Sciences, University of Bath
+- **Dr Cameron Smith** — Department of Mathematical Sciences, University of Bath  
 
 ---
 
 ## Contact
 
-- 📧 [cgyc20@bath.ac.uk](mailto:cgyc20@bath.ac.uk)  
-- 🐙 [GitHub](https://github.com/cgyc20)
+📧 cgyc20@bath.ac.uk  
+🐙 https://github.com/cgyc20
