@@ -2,10 +2,10 @@
 layout: default
 ---
 
-# Introduction to Data Science with R: 
+## Introduction to Data Science with R: 
 ## Exploring Democracy and Autocracy Worldwide
 
-## Course information
+### Course information
 
 - **Instructor**: Ozlem Tuncel (<otuncelgurlek1@gsu.edu>)
 
@@ -13,11 +13,11 @@ layout: default
 
 - **Class Location**: TBA
 
-## Dr. Tuncel's Office Hours
+### Dr. Tuncel's Office Hours
 - My office: TBA
 - Office hours: **TBA**
 
-## Slides, Notes, and Tips
+### Slides, Notes, and Tips
 
 ### Week 1: Syllabus Overview
 > ✔️ Goal: Review of the syllabus and last semester.
