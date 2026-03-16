@@ -5,6 +5,8 @@ layout: default
 ## Introduction to Data Science with R: 
 ## Exploring Democracy and Autocracy Worldwide
 
+![](assets/logo.png)
+
 ### Course information
 
 - **Instructor**: Ozlem Tuncel (<otuncelgurlek1@gsu.edu>)
