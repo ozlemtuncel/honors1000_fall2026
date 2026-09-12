@@ -9,32 +9,44 @@ layout: default
 
 - **Instructor**: Ozlem Tuncel (<otuncelgurlek1@gsu.edu>)
 
-- **Meeting Time**: TBA pm, TBA
+- **Meeting Time**: 3:30 pm, Mondays
 
-- **Class Location**: TBA
+- **Class Location**: AUB 230
 
 ### Dr. Tuncel's Office Hours
-- My office: TBA
-- Office hours: **TBA**
+- My office: LS 252
+- Office hours: **Through email appointment**, (<otuncelgurlek1@gsu.edu>)
 
 ### Slides, Notes, and Tips
 
 ### Week 1: Syllabus Overview
-> ✔️ Goal: Review of the syllabus and last semester.
+> ✔️ Goal: Review of the syllabus and quick quiz to gauge understanding of democracy and autocracy.
 
 #### Class materials 
-[Week 1 Slides](docs/01Matrix.pdf)
+[Week 1 Slides](docs/Week1_08242026.pdf)
 
 #### Software and others
 > ✔️ Goal: Make sure you are familiar with basics of R.
 
-> ⚠️ Our library offers online R workshops, and I highly recommend them! 
+> ⚠️ Syllabus quiz is due next week! 
 
-### Week 2:
+### Week 2: Getting started with R and R Studio
+> ✔️ Goal: Learn what is *data* and *analysis* and start coding with R!
 
-### Week 3:
+#### Class materials 
+[Week 2 Slides](docs/Week2_08312026.pdf)
+[Week 2 Code](docs/week2_code.R)
 
-### Week 4:
+### Week 3: Labor Day -- **NO CLASS!**
+> ⚠️ R Basics Ready! Badge is due next week!
+
+### Week 4: Workflow basics and *tidyverse*
+> ✔️ Goal: Learn key functions such as *select()*, *rename()*, *filter()*, *group_by()* with *tidyverse*.
+
+#### Class materials 
+[Week 4 Slides](docs/Week4_09142026.pdf)
+[Week 4 Code](docs/week4_code.R)
+[Week 4 data](docs/vdem_short.csv)
 
 ### Week 5:
 
