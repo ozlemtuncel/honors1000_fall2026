@@ -23,6 +23,7 @@ layout: default
 > ✔️ Goal: Review of the syllabus and quick quiz to gauge understanding of democracy and autocracy.
 
 #### Class materials 
+
 [Week 1 Slides](docs/Week1_08242026.pdf)
 
 #### Software and others
@@ -34,7 +35,9 @@ layout: default
 > ✔️ Goal: Learn what is *data* and *analysis* and start coding with R!
 
 #### Class materials 
+
 [Week 2 Slides](docs/Week2_08312026.pdf)
+
 [Week 2 Code](docs/week2_code.R)
 
 ### Week 3: Labor Day -- **NO CLASS!**
@@ -44,8 +47,11 @@ layout: default
 > ✔️ Goal: Learn key functions such as *select()*, *rename()*, *filter()*, *group_by()* with *tidyverse*.
 
 #### Class materials 
+
 [Week 4 Slides](docs/Week4_09142026.pdf)
+
 [Week 4 Code](docs/week4_code.R)
+
 [Week 4 data](docs/vdem_short.csv)
 
 ### Week 5:
